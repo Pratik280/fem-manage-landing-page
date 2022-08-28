@@ -5,8 +5,8 @@
 
   --clr-primary-400: hsl(228, 39%, 23%) ;
 
-  --clr-neutral-400: hsl(233, 12%, 13%);
-  --clr-neutral-900: hsl(0, 0%, 0%);
+  --clr-neutral-900: hsl(233, 12%, 13%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
 
   /* font family */
   --ff-primary: 'Be Vietnam Pro', sans-serif;
@@ -113,13 +113,13 @@ svg {
 .text-accent-400 { color: var(--clr-accent-400); }
 .text-accent-100 { color: var(--clr-accent-100); }
 .text-primary-400 { color: var(--clr-primary-400); }
-.text-neutral-400 { color: var(--clr-neutral-400); }
+.text-neutral-100 { color: var(--clr-neutral-100); }
 .text-neutral-900 { color: var(--clr-neutral-900); }
 
 .bg-accent-400 { background-color: var(--clr-accent-400); }
 .bg-accent-100 { background-color: var(--clr-accent-100); }
 .bg-primary-400 { background-color: var(--clr-primary-400); }
-.bg-neutral-400 { background-color: var(--clr-neutral-400); }
+.bg-neutral-100 { background-color: var(--clr-neutral-100); }
 .bg-neutral-900 { background-color: var(--clr-neutral-900); }
 
 .fw-regular { font-weight: var(--fw-regular); }
@@ -127,7 +127,7 @@ svg {
 .fw-bold { font-weight: var(--fw-bold); }
 
 .fs-primary-heading { font-size: var(--fs-primary-heading); }
-.fs-primary-heading { font-size: var(--fs-secondary-heading); }
+.fs-secondary-heading { font-size: var(--fs-secondary-heading); }
 
 .fs-300{ font-size: var(--fs-300); }
 .fs-400{ font-size: var(--fs-400); }

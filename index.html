@@ -14,7 +14,7 @@
 
     <header class="primary-header"> <div class="container">
         <a href="#"><img src="./images/logo.svg" alt="Manage"></a>
-        <nav class="primary-navigation">
+        <nav class="primary-navigation" aria-label="Primary">
           <ul role="list" class="nav-list">
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Product</a></li>
@@ -74,7 +74,7 @@
         <button class="button">Get Started</button>
       </section>
 
-      <section class="cta | bg-primary-400 text-neutral-100">
+      <section class="cta | bg-accent-400 text-neutral-100">
         <div class="container even-columns">
           <div>
             <p class="fs-secondary-heading">Simplify how your team works today.</p>
@@ -90,27 +90,41 @@
           <div class="even-columns">
             <div>
               <a href="#"><img src="./images/logo.svg" alt="Manage"></a>
-              <!-- ######## HERE 27:43 ######### -->
+              <ul role="list" aria-label="social links">
+                <li><a href="#" aria-label="facebook"></a></li>
+                <li><a href="#" aria-label="youtube"></a></li>
+                <li><a href="#" aria-label="twitter"></a></li>
+                <li><a href="#" aria-label="pinterest"></a></li>
+                <li><a href="#" aria-label="instagram"></a></li>
+              </ul>
             </div>
-            <div></div>
-            <div></div>
+            <div>
+              <nav class="footer-nav">
+                <ul role="list" aria-label="Footer">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About</a></li> 
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Privacy</a></li> 
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <form action="">
+                <input type="email">
+                <button class="button">Go</button>
+              </form>
+              <p>Copyright 2020. All Rights Reserved</p>
+            </div>
           </div>
         </div>
       </footer>
 
     </main>
 
-  
-  
-
-
-  01
-  02
-  03
-  
-  
-  
-
+    <!-- ############### HERE START CSS 3:00 3rd vid ############## -->
   Anisha Li
   “Manage has supercharged our team’s workflow. The ability to maintain 
   visibility on larger milestones at all times keeps everyone motivated.”
@@ -127,24 +141,8 @@
   Shanai Gough
   “Their software allows us to track, manage and collaborate on our projects 
   from anywhere. It keeps the whole team in-sync without being intrusive.”
-
-  
-
-  
-  
-
-  Home
-  Pricing
-  Products
-  About Us
-  Careers
-  Community
-  Privacy Policy
-
   Updates in your inbox…
-  Go
 
-  Copyright 2020. All Rights Reserved
-    <script type="module" src="/main.js"></script>
+  <script type="module" src="/main.js"></script>
   </body>
 </html>
