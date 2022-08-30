@@ -134,3 +134,32 @@ svg {
 .fs-400{ font-size: var(--fs-400); }
 .fs-500{ font-size: var(--fs-500); }
 .fs-600{ font-size: var(--fs-600); }
+
+.container {
+  --max-width: 1110px;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - (var(--padding) *2));
+  margin-inline: auto;
+}
+
+/* ######## HERE 3rd video 10:00 ###### */
+
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 50em) {
+  .even-columns {
+    grid-auto-flow: column;
+    grid-column: 1fr 1fr; /* ISSUE HERE */
+  }
+}
+
+/* general styles */
+
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-400);
+}
